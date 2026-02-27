@@ -6,7 +6,7 @@ def test_add():
 
 def test_subtract():
     calc = Calculadora()
-    assert calc.subtract(5, 2) == 8
+    assert calc.subtract(5, 2) == 3
 
 #python -m pytest
 #python -m pytest -v
