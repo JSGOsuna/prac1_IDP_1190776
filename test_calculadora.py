@@ -1,5 +1,5 @@
 from calculadora import Calculadora
-
+#Método para probar la función add de la clase Calculadora
 def test_add():
     calc = Calculadora()
     assert calc.add(2, 3) == 5
